@@ -8,3 +8,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Check container
         uses: docker://azlux/botamusique
+        with:
+            BAM_CONFIG_file: ./botamusique.ini
+            BAM_MUSIC_DB: ./music.db
+            BAM_DB: ./setting-xana.db
