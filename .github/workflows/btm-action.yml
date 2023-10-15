@@ -9,7 +9,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
       - name: Check container
-        uses: docker://azlux/botamusique
+        uses: docker://azlux/botamusique:latest
         with:
             BAM_CONFIG_file: ./botamusique.ini
             BAM_MUSIC_DB: ./music.db
