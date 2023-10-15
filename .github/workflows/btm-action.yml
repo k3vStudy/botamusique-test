@@ -1,0 +1,10 @@
+name: CI
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Check container
+        uses: docker://azlux/botamusique
