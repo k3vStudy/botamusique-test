@@ -14,3 +14,4 @@ jobs:
             BAM_CONFIG_file: ./botamusique.ini
             BAM_MUSIC_DB: ./music.db
             BAM_DB: ./setting-xana.db
+            entrypoint: /run.sh
